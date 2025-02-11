@@ -1,7 +1,7 @@
 # ☕ Cafe_Pixelado
 **Onde a cultura pop encontra o café perfeito!**
 
-Projeto de site online de uma cafeteria geekdas alunas Nadine e Sophia Ferreira.
+Projeto de site online de uma cafeteria geekdas alunas Nadine Vasconcellos Carvalho de Almeida e Sophia Agnes de Machado Ferreira.
 
 ## 💾 Aspectos visuais
 
