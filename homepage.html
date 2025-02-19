@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="café pixelado, café geek, pixel art café, cultura geek, café retrô, pixel café, jogos retrô e café, cultura pop e café, 
+                                    site fofo de café, café e tecnologia, café para gamers, geek coffee, jogos retrô, café e animes, cultura nerd, café fofinho, 
+                                    café vintage, receitas geek, cafeteria online, bebidas temáticas">
+    <meta name="author" content="Nadine Vasconcellos Carvalho de Almeida e Sophia Agnes de Machado Ferreira">
+    <title>Café Pixelado</title>
+
+    <link rel="stylesheet" href="CSS/homepage.css">
+    <script src="SCRIPT/homepage.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logoPNGCafePixelado2.png" alt="Café Pixelado">
+            <h1>Café Pixelado</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">SOBRE NÓS</a></li>
+                <li><a href="#cardapio">CARDÁPIO</a></li>
+                <li><a href="#eventos">EVENTOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Café Pixelado!</h1>
+            <h4>O seu lugar de descanso, café e imersão no mundo geek!</h4>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+        </div>
+    </section>
+    
+    <section id="conheca" class="content-section">
+        <h2>CONHEÇA NOSSO ESPAÇO</h2>
+        <div class="galeria">
+            <img src="imagens/frenteCafePixelado.jpg" alt="Foto 1" class="zoom-effect">
+            <img src="imagens/interior1.jpg" alt="Foto 2" class="zoom-effect">
+            <img src="imagens/interior 2.jpg" alt="Foto 3" class="zoom-effect">
+        </div>
+    </section>
+    
+    <section id="eventos" class="eventos-section">
+        <h2>EVENTOS</h2>
+        <div class="carrossel">
+            <button id="btn2" class="prev" onclick="moveSlide(-1)"">&#10094;</button>
+            <div class="carrossel-container">
+                <img src="imagens/eventoSenhorDosAneis.png" alt="Evento 1" class="carrossel-item">
+                <img src="imagens/eventoCosplay.png" alt="Evento 2" class="carrossel-item">
+                <img src="imagens/eventoStarWars.png" alt="Evento 3" class="carrossel-item">
+                <img src="imagens/eventoGirlstea.png" alt="Evento 4" class="carrossel-item">
+                <img src="imagens/eventoHarryPotter.png" alt="Evento 5" class="carrossel-item">
+            </div>
+            <button id="btn2" class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    
+    <section id="contato" class="contato-section">
+        <h2>CONTATO</h2>
+        <h4>Entre em contato conosco para reservas e mais informações!</h4>
+        <div class="contato-container">
+            <img src="imagens/contatoInfo.png" alt="Contatos">
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Café Pixelado - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

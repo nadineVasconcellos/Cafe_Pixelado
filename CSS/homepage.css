@@ -1,0 +1,184 @@
+body {
+  background-color: #ffe5c3;
+  color: rgb(88, 53, 37);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Press Start 2P';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: rgb(88, 53, 37);
+  font-size: 16px;
+  background: #ffe5c3;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 85px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: rgb(88, 53, 37);
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-decoration: underline;
+  padding-left: 18px;
+}
+
+nav ul li a:hover {
+color: rgb(209, 108, 150);
+}
+
+.hero {
+  background-image: url('imagens/fundoCafeHome.png');
+  background-size: cover;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-content {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 25px ;
+}
+
+.btn {
+  background: rgba(88, 53, 37, 0.781);
+  color: white;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(255, 159, 199);
+  transform: scale(1.1);
+
+}
+
+.content-section {
+  padding: 50px;
+  text-align: center;
+}
+
+#conheca {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 60px;
+}
+
+.galeria {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.galeria img {
+  width: 450px;
+  box-shadow: 5px 5px 10px rgba(88, 53, 37, 0.377);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.galeria img:hover {
+transform: scale(1.1);
+}
+
+.eventos-section {
+  background-image: url('imagens/cafeLounge3.jpg');
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.eventos-section h2 {
+  background-color: rgb(88, 53, 37);
+}
+
+#eventos {
+font-family: 'Montserrat';
+font-size: 20px;
+padding: 60px;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.carrossel-container img {
+  width: 250px;
+  gap: 300px;
+  box-shadow: 10px 10px 20px rgba(88, 53, 37, 0.377);
+
+}
+
+.carrossel-item {
+  gap: 300px;
+
+}
+
+.contato-section {
+  background-image: url('imagens/contatoFundo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(88, 53, 37);
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+
+}
+
+.contato-container img {
+  width: 250px;
+  padding: 5px;
+}
+
+footer {
+
+  background-image: url('imagens/gramaFooter.jpg');
+  background-size: cover;
+  font-family: 'Press Start 2P';
+  font-size: 9px;
+  color: white;
+  text-align: center;
+  padding: 28px;
+  
+}
+  
+  
